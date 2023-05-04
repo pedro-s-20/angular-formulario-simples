@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+// global
+:root {
+    --cor-de-fundo: #F0F8FF;
+    --branco: #fff;
+    --fonte-principal: #191970;
+    --fonte-secundaria: #000080;
+    --cor-fundo-btn: #B0C4DE;
+}
+
+section {
+    width: 96%;
+    margin: auto;
+}

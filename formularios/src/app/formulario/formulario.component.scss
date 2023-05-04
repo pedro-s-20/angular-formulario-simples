@@ -1,0 +1,32 @@
+.container {
+    flex-direction: column;
+    max-width: 40%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    //em - unidade de medida relativa - baseada no tamanho da fonte do elemento pai
+    //rem - é ajustada de acordo com a fonte do elemento raiz da aplicação 
+    margin: 5em auto 6em auto;
+    padding: 2.5%;
+    background-color: var(--cor-de-fundo);
+}
+
+label {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 3em 0 2em 0;
+    color: var(--fonte-principal);
+}
+
+input {
+    max-width: 75%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: .6em 3em .6em 0;
+}
+
+.btn {
+    border-radius: 3px;
+    background-color: VAR(--cor-fundo-btn);
+    padding: .6em 3em;
+}
